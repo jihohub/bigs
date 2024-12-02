@@ -57,6 +57,11 @@ export interface BoardListResponse {
   empty: boolean;
 }
 
+export interface PaginationParams {
+  page: number;
+  size: number;
+}
+
 export interface CategoryResponse {
   NOTICE: string;
   FREE: string;
